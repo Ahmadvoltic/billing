@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5175'],
+  origin: ['http://localhost:5173', 'http://localhost:5175', 'https://app.inboxro.com'],
   credentials: true
 }));
 app.use(express.json());
